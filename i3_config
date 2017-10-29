@@ -163,6 +163,9 @@ bar {
 # Random Wallpaper at each login
 exec ~/tools/i3_scripts/random_wall.sh
 
+# Compton for transparency
+exec compton -b
+
 # Change Spotify layout to float inorder to fix issues with it tiling, move to $workspace3
 for_window [class="Spotify"] floating enable; resize set 1200 900; move position center; move to workspace $workspace3
 #for_window [class="discord"] floating enable; resize set 1500 1000; move position center; move to workspace $workspace4
