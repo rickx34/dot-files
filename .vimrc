@@ -136,6 +136,9 @@ try
 	  let base16colorspace=256
 	  source ~/.vimrc_background
 	endif
+
+	" Enable transparency
+	hi Normal guibg=NONE ctermbg=NONE
 catch
 	" Nothing
 endtry
